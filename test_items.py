@@ -2,7 +2,7 @@ import pytest
 from selenium.webdriver.common.by import By
 
 
-def test_items(browser):
+def test_add_to_cart_button_is_displayed(browser):
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     browser.get(link)
     browser.implicitly_wait(10)
