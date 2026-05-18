@@ -7,3 +7,4 @@ def test_items(browser):
     browser.get(link)
     browser.implicitly_wait(10)
     browser.find_element(By.CSS_SELECTOR, ".btn.btn-lg.btn-primary.btn-add-to-basket")
+    assert True
